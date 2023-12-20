@@ -9,4 +9,15 @@ content-type: application/json
 }
 
 ###
-GET http://localhost:3003/
+GET http://localhost:3003/api/blogs
+
+###
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "Honestly Speaking",
+  "author": "Chinua Ach",
+  "url": "Not available",
+  "likes": 53
+}
