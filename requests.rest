@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "Things Fall Apart",
+  "author": "Chinua Achebe",
+  "url": "Not available",
+  "likes": 899
+}
+
+###
+GET http://localhost:3003/
